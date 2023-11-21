@@ -1,0 +1,35 @@
+.card {
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-picked {
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: blue;
+}
+
+.card:hover, .card-picked:hover {
+  background-color: pink;
+  transition: 0.3s;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.image {
+  width: 180px;
+  height: 190px;
+  border-radius: 50%;
+  border: black 3px solid;
+  margin: 5px;
+}
+

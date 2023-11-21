@@ -1,0 +1,61 @@
+#root {
+  background-image: url('https://lp-cms-production.imgix.net/features/2017/09/dubai-marina-skyline-2c8f1708f2a1.jpg');
+  background-repeat: no-repeat;
+  height: 1000px;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: top;
+  display: flex;
+  padding: 10px;
+}
+
+.card-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  width: 500px;
+  max-height: 800px;
+  background-color: black;
+  opacity: 80%;
+  color: white;
+  border-radius: 10px;
+  z-index: 2;
+  row-gap: 20px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 300px;
+}
+
+.options:hover {
+  cursor: pointer;
+  size: 120%;
+}
+
+.addtask {
+  width: 80%;
+  height: 40px;
+  background-color: white;
+  font-size: 90%;
+  font-weight: bold;
+}
+
+.task-title {
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px white;
+  width: 300px;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}

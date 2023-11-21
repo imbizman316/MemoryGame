@@ -1,0 +1,139 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #1f0f0f;
+}
+
+#root {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin: 8%;
+}
+
+.big-container {
+  width: 250px;
+  border-radius: 10px;
+  background-color: #011202;
+  color: white;
+  border: white 1px solid;
+}
+
+.myface {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.title h2, .title h5, .title h6{
+  padding: 0;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.title h5, .title h6 {
+  font-weight: 100;
+}
+
+.top-container {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.email-container, .linkedin-container {
+  width: 110px;
+  height: 25px;
+  border-radius: 5px;
+  font-size: 8px;
+}
+
+.email-container {
+  display: flex;
+  background-color: white;
+  color: #000111;
+  justify-content:space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  filter:opacity(80%);
+}
+
+.linkedin-container {
+  display: flex;
+  background-color: #111fff;
+  color: white;
+  justify-content:space-evenly;
+  align-items: center;
+  filter:opacity(70%);
+}
+
+.email-container:hover, .linkedin-container:hover {
+  filter:opacity(100%);
+  border: pink dotted 1px;
+}
+
+.email-icon, .linkedin-icon {
+  opacity: 49%;
+  width: 16px;
+  margin: 0;
+  padding: 0;
+  filter:contrast(10%) brightness(20%);
+}
+
+.middle-container {
+  min-height: 170px;
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.middle-container h4 {
+  padding: 0;
+  margin: 0;
+}
+
+.middle-container p {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-container {
+  background-color: black;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  padding-inline: 10px;
+  align-items: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.footer-container > img {
+  height: 25px;
+  filter: grayscale(100%);
+  border: #00f110 1px dotted;
+  margin: 8px;
+}
+
+.footer-container > img:hover {
+  filter: grayscale(0%);
+}
